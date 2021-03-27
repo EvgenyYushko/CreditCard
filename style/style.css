@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    background-color: rgb(203, 207, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    max-width: 608px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.form{
+    background-color: rgb(117, 199, 196);
+    padding: 20px 15px;
+    border-radius: 14px;
+    text-align: left;
+    display: flex;
+}
+
+.form_input{
+    width: 310px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid rgb(4 115 110);
+    background-color: rgb(143 212 209);
+}
+
+.form_input:last-child{
+    margin-bottom: 0px;
+}
+
+.form_input::placeholder{
+    text-align: left;
+    color: rgb(4 115 110);
+}
+
+.text{
+    display: flex;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: rgb(4 115 110);
+}
+
+.header{
+    background-color: rgb(202, 96, 40);
+    padding: 10px 183px 10px 35px;
+    display: inline-block;
+    margin: 10px 0px 24px -34px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.content-bottom{
+    display: flex;
+    align-items: flex-end;
+    max-width: 310px;
+}
+
+.content-bottom_item{
+    margin-right: 10px;
+}
+
+.content-bottom_item:last-child{
+    margin-right: 0px;
+}
+
+.form_input-bottom{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid rgb(4 115 110);  
+    background-color: rgb(143 212 209);   
+}
+
+.form_input-bottom::placeholder{
+    text-align: left;
+    color: rgb(4 115 110);
+}
+
+.image{
+    background-image: url(../media/moon_flag.png);
+    width: 324px;
+    height: 347px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: -12px 0px 0px 0px;
+}
+
+.image-section{
+    overflow: hidden;
+    height: 257px;
+    width: 218px;
+    margin: 41px 0px 0px -70px;
+    border-radius: 14px;
+    transform: translate(15px, 43px);
+}
+
+
+
+
+
